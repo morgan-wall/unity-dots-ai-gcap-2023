@@ -1,0 +1,632 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 562bc3d6f1f03394196e01b40b54e396, type: 3}
+  m_Name: BasicUtilitySystem
+  m_EditorClassIdentifier: 
+  Selector: 0
+  OptionEvaluatorConfigs:
+  - OptionConfig: {fileID: 11400000, guid: 55bb572bf2879264489093ac82cce774, type: 2}
+    Aggregator: 0
+    ConsiderationConfigs:
+    - InputConfig: {fileID: 11400000, guid: 82e2acf4487c8ae4f9f89759993de3ba, type: 2}
+      NormalizerConfig:
+        Normalizer: 0
+        BoundedNormalizerConfig:
+          Min: 0
+          Max: 1
+      ResponseCurveConfig:
+        ResponseCurve: 0
+        LinearResponseCurveConfig:
+          M: 1
+          B: 0
+          C: 0
+        QuadraticResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        ExponentialResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        LogisticResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        SineResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        CosineResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+    - InputConfig: {fileID: 11400000, guid: 81ced72489395fa4b94805370cfbe0cc, type: 2}
+      NormalizerConfig:
+        Normalizer: 0
+        BoundedNormalizerConfig:
+          Min: 0
+          Max: 1
+      ResponseCurveConfig:
+        ResponseCurve: 0
+        LinearResponseCurveConfig:
+          M: 1
+          B: 0
+          C: 0
+        QuadraticResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        ExponentialResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        LogisticResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        SineResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        CosineResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+  - OptionConfig: {fileID: 11400000, guid: 99b87fa10998dd943924331efd886971, type: 2}
+    Aggregator: 1
+    ConsiderationConfigs:
+    - InputConfig: {fileID: 11400000, guid: 82e2acf4487c8ae4f9f89759993de3ba, type: 2}
+      NormalizerConfig:
+        Normalizer: 0
+        BoundedNormalizerConfig:
+          Min: 0
+          Max: 1
+      ResponseCurveConfig:
+        ResponseCurve: 1
+        LinearResponseCurveConfig:
+          M: 1
+          B: 0
+          C: 0
+        QuadraticResponseCurveConfig:
+          K: 1
+          M: 1
+          B: 0.1
+          C: 1
+        ExponentialResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        LogisticResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        SineResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        CosineResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+    - InputConfig: {fileID: 11400000, guid: 81ced72489395fa4b94805370cfbe0cc, type: 2}
+      NormalizerConfig:
+        Normalizer: 0
+        BoundedNormalizerConfig:
+          Min: 0
+          Max: 1
+      ResponseCurveConfig:
+        ResponseCurve: 1
+        LinearResponseCurveConfig:
+          M: 1
+          B: 0
+          C: 0
+        QuadraticResponseCurveConfig:
+          K: 2
+          M: 2
+          B: 0
+          C: 0
+        ExponentialResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        LogisticResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        SineResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        CosineResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+  - OptionConfig: {fileID: 11400000, guid: 4204bcc86b1dde346b92cb28a521c388, type: 2}
+    Aggregator: 2
+    ConsiderationConfigs:
+    - InputConfig: {fileID: 11400000, guid: 82e2acf4487c8ae4f9f89759993de3ba, type: 2}
+      NormalizerConfig:
+        Normalizer: 0
+        BoundedNormalizerConfig:
+          Min: 0
+          Max: 1
+      ResponseCurveConfig:
+        ResponseCurve: 2
+        LinearResponseCurveConfig:
+          M: 1
+          B: 0
+          C: 0
+        QuadraticResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        ExponentialResponseCurveConfig:
+          K: 1
+          M: 2
+          B: 0.1
+          C: 0.01
+        LogisticResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        SineResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        CosineResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+    - InputConfig: {fileID: 11400000, guid: 81ced72489395fa4b94805370cfbe0cc, type: 2}
+      NormalizerConfig:
+        Normalizer: 0
+        BoundedNormalizerConfig:
+          Min: 0
+          Max: 1
+      ResponseCurveConfig:
+        ResponseCurve: 2
+        LinearResponseCurveConfig:
+          M: 1
+          B: 0
+          C: 0
+        QuadraticResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        ExponentialResponseCurveConfig:
+          K: 2
+          M: 2
+          B: 0.01
+          C: 0
+        LogisticResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        SineResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        CosineResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+  - OptionConfig: {fileID: 11400000, guid: ba6c84dceca6e9b41b9aec78716beb7c, type: 2}
+    Aggregator: 0
+    ConsiderationConfigs:
+    - InputConfig: {fileID: 11400000, guid: 82e2acf4487c8ae4f9f89759993de3ba, type: 2}
+      NormalizerConfig:
+        Normalizer: 0
+        BoundedNormalizerConfig:
+          Min: 0
+          Max: 1
+      ResponseCurveConfig:
+        ResponseCurve: 3
+        LinearResponseCurveConfig:
+          M: 1
+          B: 0
+          C: 0
+        QuadraticResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        ExponentialResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        LogisticResponseCurveConfig:
+          K: 1
+          M: 1
+          B: -0.1
+          C: 1
+        SineResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        CosineResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+    - InputConfig: {fileID: 11400000, guid: 81ced72489395fa4b94805370cfbe0cc, type: 2}
+      NormalizerConfig:
+        Normalizer: 0
+        BoundedNormalizerConfig:
+          Min: 0
+          Max: 1
+      ResponseCurveConfig:
+        ResponseCurve: 3
+        LinearResponseCurveConfig:
+          M: 1
+          B: 0
+          C: 0
+        QuadraticResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        ExponentialResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        LogisticResponseCurveConfig:
+          K: 1
+          M: 1
+          B: -0.01
+          C: 1
+        SineResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        CosineResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+  - OptionConfig: {fileID: 11400000, guid: 642de6b590440c24c8188fa3f3752ce1, type: 2}
+    Aggregator: 1
+    ConsiderationConfigs:
+    - InputConfig: {fileID: 11400000, guid: 82e2acf4487c8ae4f9f89759993de3ba, type: 2}
+      NormalizerConfig:
+        Normalizer: 0
+        BoundedNormalizerConfig:
+          Min: 0
+          Max: 1
+      ResponseCurveConfig:
+        ResponseCurve: 4
+        LinearResponseCurveConfig:
+          M: 1
+          B: 0
+          C: 0
+        QuadraticResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        ExponentialResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        LogisticResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        SineResponseCurveConfig:
+          K: 1.2
+          M: 1
+          B: -0.1
+          C: 0
+        CosineResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+    - InputConfig: {fileID: 11400000, guid: 81ced72489395fa4b94805370cfbe0cc, type: 2}
+      NormalizerConfig:
+        Normalizer: 0
+        BoundedNormalizerConfig:
+          Min: 0
+          Max: 1
+      ResponseCurveConfig:
+        ResponseCurve: 4
+        LinearResponseCurveConfig:
+          M: 1
+          B: 0
+          C: 0
+        QuadraticResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        ExponentialResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        LogisticResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        SineResponseCurveConfig:
+          K: 1
+          M: 2
+          B: 0.2
+          C: 0.5
+        CosineResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+  - OptionConfig: {fileID: 11400000, guid: d1785d1dfe85e9a45ae6c472f3c66efd, type: 2}
+    Aggregator: 2
+    ConsiderationConfigs:
+    - InputConfig: {fileID: 11400000, guid: 82e2acf4487c8ae4f9f89759993de3ba, type: 2}
+      NormalizerConfig:
+        Normalizer: 0
+        BoundedNormalizerConfig:
+          Min: 0
+          Max: 1
+      ResponseCurveConfig:
+        ResponseCurve: 5
+        LinearResponseCurveConfig:
+          M: 1
+          B: 0
+          C: 0
+        QuadraticResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        ExponentialResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        LogisticResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        SineResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        CosineResponseCurveConfig:
+          K: 1
+          M: 1
+          B: -0.2
+          C: 0
+    - InputConfig: {fileID: 11400000, guid: 81ced72489395fa4b94805370cfbe0cc, type: 2}
+      NormalizerConfig:
+        Normalizer: 0
+        BoundedNormalizerConfig:
+          Min: 0
+          Max: 1
+      ResponseCurveConfig:
+        ResponseCurve: 5
+        LinearResponseCurveConfig:
+          M: 1
+          B: 0
+          C: 0
+        QuadraticResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        ExponentialResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        LogisticResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        SineResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        CosineResponseCurveConfig:
+          K: 0.8
+          M: 2
+          B: 0.01
+          C: 0.1
+  - OptionConfig: {fileID: 11400000, guid: eb3edfffd78707348a16566242817868, type: 2}
+    Aggregator: 0
+    ConsiderationConfigs:
+    - InputConfig: {fileID: 11400000, guid: 82e2acf4487c8ae4f9f89759993de3ba, type: 2}
+      NormalizerConfig:
+        Normalizer: 0
+        BoundedNormalizerConfig:
+          Min: 0
+          Max: 1
+      ResponseCurveConfig:
+        ResponseCurve: 0
+        LinearResponseCurveConfig:
+          M: 1
+          B: 0
+          C: 0
+        QuadraticResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        ExponentialResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        LogisticResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        SineResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        CosineResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+    - InputConfig: {fileID: 11400000, guid: 81ced72489395fa4b94805370cfbe0cc, type: 2}
+      NormalizerConfig:
+        Normalizer: 0
+        BoundedNormalizerConfig:
+          Min: 0
+          Max: 1
+      ResponseCurveConfig:
+        ResponseCurve: 0
+        LinearResponseCurveConfig:
+          M: 1
+          B: 0
+          C: 0
+        QuadraticResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        ExponentialResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        LogisticResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        SineResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        CosineResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+  - OptionConfig: {fileID: 11400000, guid: c2335f960e2f8234f847927e457ab865, type: 2}
+    Aggregator: 0
+    ConsiderationConfigs:
+    - InputConfig: {fileID: 11400000, guid: 82e2acf4487c8ae4f9f89759993de3ba, type: 2}
+      NormalizerConfig:
+        Normalizer: 0
+        BoundedNormalizerConfig:
+          Min: 0
+          Max: 1
+      ResponseCurveConfig:
+        ResponseCurve: 0
+        LinearResponseCurveConfig:
+          M: 1
+          B: 0
+          C: 0
+        QuadraticResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        ExponentialResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        LogisticResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        SineResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        CosineResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+    - InputConfig: {fileID: 11400000, guid: 81ced72489395fa4b94805370cfbe0cc, type: 2}
+      NormalizerConfig:
+        Normalizer: 0
+        BoundedNormalizerConfig:
+          Min: 0
+          Max: 1
+      ResponseCurveConfig:
+        ResponseCurve: 0
+        LinearResponseCurveConfig:
+          M: 1
+          B: 0
+          C: 0
+        QuadraticResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        ExponentialResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        LogisticResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        SineResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
+        CosineResponseCurveConfig:
+          K: 0
+          M: 0
+          B: 0
+          C: 0
